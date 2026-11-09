@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.png" width="100%" alt="Profile Banner"/>
+  <img src="banner.gig" width="100%" alt="Profile Banner"/>
 </div>
 
 <br/>
@@ -26,7 +26,10 @@ My interests include:
 - Technology experimentation
 - Dentistry and medical education
 
----
+---<div align="center">
+  <img src="banner.png" width="100%" alt="Profile Banner"/>
+</div>
+
 
 ## VEYROST
 
