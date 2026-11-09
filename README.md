@@ -1,8 +1,10 @@
-<div align="center">
-  <img src="banner.gig" width="100%" alt="Profile Banner"/>
-</div>
 
-<br/>
+<p align="center">
+  <img src="assets/banner.gif"
+       alt="NetScope Application Preview"
+       width="100%">
+</p>
+
 
 # Khayom Abdurahmonov
 
