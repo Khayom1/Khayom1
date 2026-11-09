@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="320" viewBox="0 0 1200 320">
+  <title>VEYROST Liquid Neon Background</title>
+  <desc>Seamlessly looping smooth liquid waves in electric blue, cyan and deep navy.</desc>
+
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020611"/>
+      <stop offset=".48" stop-color="#06152D"/>
+      <stop offset="1" stop-color="#020817"/>
+    </linearGradient>
+
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#003BFF" stop-opacity=".10"/>
+      <stop offset=".28" stop-color="#087BFF" stop-opacity=".82"/>
+      <stop offset=".55" stop-color="#00D9FF" stop-opacity=".92"/>
+      <stop offset=".78" stop-color="#075BFF" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#172BFF" stop-opacity=".12"/>
+      <animate attributeName="x1" values="0;0.12;0" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0.88;1" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="waveB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#073EFF" stop-opacity=".04"/>
+      <stop offset=".38" stop-color="#064EFF" stop-opacity=".66"/>
+      <stop offset=".68" stop-color="#00BFFF" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#0037D8" stop-opacity=".08"/>
+      <animate attributeName="x1" values="1;.86;1" dur="15s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="waveC" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00CFFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#008CFF" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#294BFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlue">
+      <stop offset="0" stop-color="#006BFF" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#006BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan">
+      <stop offset="0" stop-color="#00D9FF" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+    <filter id="soft2" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+
+    <clipPath id="clip">
+      <rect width="1200" height="320"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#base)"/>
+
+    <ellipse cx="360" cy="145" rx="440" ry="190" fill="url(#glowBlue)" filter="url(#soft)"/>
+    <ellipse cx="910" cy="210" rx="390" ry="170" fill="url(#glowCyan)" filter="url(#soft)"/>
+
+    <!-- Broad liquid wave layers -->
+    <g opacity=".82" filter="url(#soft)">
+      <path fill="url(#waveA)"
+        d="M-120 155 C80 38 205 55 360 135 S650 250 820 145 S1080 40 1320 135 L1320 330 L-120 330Z">
+        <animateTransform attributeName="transform" type="translate"
+          values="-24 0;24 10;-24 0" dur="12s" repeatCount="indefinite"/>
+      </path>
+      <path fill="url(#waveB)"
+        d="M-140 215 C70 300 215 265 380 190 S650 70 820 180 S1080 290 1340 190 L1340 360 L-140 360Z">
+        <animateTransform attributeName="transform" type="translate"
+          values="22 0;-22 -8;22 0" dur="14s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Sharper flowing silk-like edges -->
+    <g filter="url(#soft2)" opacity=".78">
+      <path d="M-100 168 C90 52 220 65 370 145 S650 242 820 150 S1090 54 1300 140"
+        fill="none" stroke="#087BFF" stroke-width="28">
+        <animate attributeName="d" dur="12s" repeatCount="indefinite"
+          values="M-100 168 C90 52 220 65 370 145 S650 242 820 150 S1090 54 1300 140;
+                  M-100 188 C90 72 220 45 370 125 S650 222 820 170 S1090 74 1300 160;
+                  M-100 168 C90 52 220 65 370 145 S650 242 820 150 S1090 54 1300 140"/>
+      </path>
+      <path d="M-100 232 C90 285 220 270 370 205 S650 100 820 190 S1090 270 1300 205"
+        fill="none" stroke="#00CFFF" stroke-width="22">
+        <animate attributeName="d" dur="15s" repeatCount="indefinite"
+          values="M-100 232 C90 285 220 270 370 205 S650 100 820 190 S1090 270 1300 205;
+                  M-100 212 C90 265 220 290 370 225 S650 120 820 170 S1090 250 1300 185;
+                  M-100 232 C90 285 220 270 370 205 S650 100 820 190 S1090 270 1300 205"/>
+      </path>
+    </g>
+
+    <path d="M-100 168 C90 52 220 65 370 145 S650 242 820 150 S1090 54 1300 140"
+      fill="none" stroke="url(#waveA)" stroke-width="3" opacity=".9">
+      <animateTransform attributeName="transform" type="translate"
+        values="-12 0;12 0;-12 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-100 232 C90 285 220 270 370 205 S650 100 820 190 S1090 270 1300 205"
+      fill="none" stroke="url(#waveC)" stroke-width="2.5" opacity=".85">
+      <animateTransform attributeName="transform" type="translate"
+        values="12 0;-12 0;12 0" dur="15s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Subtle dark overlay keeps future text readable -->
+    <rect width="1200" height="320" fill="#020817" opacity=".12"/>
+  </g>
+</svg>
