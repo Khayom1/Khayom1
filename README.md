@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="banner.png" width="100%" alt="Profile Banner"/>
+</div>
+
+<br/>
+
 # Khayom Abdurahmonov
 
 **Creator of VEYROST — a personal AI system and experimental technology project.**
