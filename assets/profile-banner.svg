@@ -1,33 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">Khayom Abdurahmonov — VEYROST</title>
-<desc id="desc">Dark profile banner with a teal mark and the name Khayom Abdurahmonov.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Khayom Abdurahmonov — VEYROST Engineering</title>
+<desc id="desc">Animated dark technical profile banner with a luminous orbital VEYROST mark, circuit traces, and a rotating engineering identity.</desc>
 <defs>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-    <path d="M28 0H0V28" fill="none" stroke="#18181b" stroke-width="1"/>
-  </pattern>
-  <radialGradient id="glow" cx="18%" cy="50%" r="42%">
-    <stop offset="0" stop-color="#7dcdc4" stop-opacity="0.16"/>
-    <stop offset="1" stop-color="#7dcdc4" stop-opacity="0"/>
-  </radialGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050914"/><stop offset=".55" stop-color="#0a1425"/><stop offset="1" stop-color="#071019"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#19e6d2"/><stop offset=".5" stop-color="#48a8ff"/><stop offset="1" stop-color="#9b7bff"/></linearGradient>
+  <radialGradient id="aura"><stop stop-color="#1ce0d0" stop-opacity=".22"/><stop offset="1" stop-color="#1ce0d0" stop-opacity="0"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#91a8c4" stroke-opacity=".08" stroke-width="1"/></pattern>
+  <clipPath id="panel"><rect x="0" y="0" width="1200" height="360" rx="18"/></clipPath>
 </defs>
-<rect width="1200" height="300" fill="#09090b"/>
-<rect width="1200" height="300" fill="url(#grid)" opacity="0.55"/>
-<rect width="1200" height="300" fill="url(#glow)"/>
-<rect x="0" y="0" width="1200" height="2" fill="#7dcdc4"/>
-<g fill="none" stroke="#7dcdc4" transform="translate(108 150)">
-  <circle r="78" stroke-width="1.25" opacity="0.9"/>
-  <circle r="58" stroke-width="0.6" opacity="0.35"/>
-  <path d="M-22 8 L0 -28 L22 8" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter"/>
-  <path d="M-34 34 H34" stroke-width="1" opacity="0.55"/>
+<g clip-path="url(#panel)">
+<rect width="1200" height="360" fill="url(#bg)"/><rect width="1200" height="360" fill="url(#grid)"/>
+<circle cx="205" cy="170" r="240" fill="url(#aura)"/>
+<g fill="none" stroke="#34d9d0" stroke-opacity=".35" stroke-width="1.4">
+<path d="M0 75H145L185 115H270"><animate attributeName="stroke-opacity" values=".12;.65;.12" dur="5s" repeatCount="indefinite"/></path>
+<path d="M0 285H120L165 240H270"><animate attributeName="stroke-opacity" values=".55;.12;.55" dur="6s" repeatCount="indefinite"/></path>
+<path d="M930 72H1030L1080 122H1200M960 290H1050L1095 245H1200"/>
+<path d="M800 0V40L850 90H970M740 360V325L790 275H920" opacity=".45"/>
 </g>
-<g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#f4f4f5">
-  <text x="248" y="112" fill="#7dcdc4" font-size="13" letter-spacing="6">VEYROST</text>
-  <text x="246" y="176" font-size="64" font-weight="600" letter-spacing="1">KHAYOM</text>
-  <text x="248" y="208" fill="#a1a1aa" font-size="15" letter-spacing="7">ABDURAHMONOV</text>
-  <text x="248" y="248" fill="#d4d4d8" font-size="15" letter-spacing="0.4">Personal AI   ·   Tools   ·   Products   ·   Dushanbe</text>
-  <text x="1112" y="118" text-anchor="end" fill="#7dcdc4" font-size="12" letter-spacing="2">01</text>
-  <text x="1112" y="166" text-anchor="end" fill="#71717a" font-size="12" letter-spacing="2">PUBLIC BUILD</text>
-  <text x="1112" y="214" text-anchor="end" fill="#71717a" font-size="12" letter-spacing="2">TAJIKISTAN</text>
+<g transform="translate(188 178)" fill="none" stroke="url(#cyan)" filter="url(#glow)">
+<circle r="100" stroke-width="1.5" opacity=".55"><animate attributeName="r" values="96;103;96" dur="7s" repeatCount="indefinite"/></circle>
+<circle r="77" stroke-width="1" stroke-dasharray="3 8" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="35s" repeatCount="indefinite"/></circle>
+<ellipse rx="112" ry="42" stroke-width="1.3" opacity=".65" transform="rotate(-28)"><animateTransform attributeName="transform" type="rotate" from="-28" to="332" dur="24s" repeatCount="indefinite"/></ellipse>
+<path d="M-34 25L0 -39L34 25M-21 -1H21M-48 43H48" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="0" cy="-39" r="4" fill="#5df8e5" stroke="none"><animate attributeName="opacity" values=".3;1;.3" dur="2.4s" repeatCount="indefinite"/></circle>
 </g>
-<rect x="0" y="298" width="1200" height="2" fill="#18181b"/>
-</svg>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="360" y="93" fill="#5ce5d8" font-size="14" letter-spacing="7" font-weight="600">INDEPENDENT ENGINEERING / 001</text>
+<text x="355" y="165" fill="#f2f7ff" font-size="57" font-weight="700" letter-spacing="1">KHAYOM</text>
+<text x="359" y="197" fill="#a8b7ca" font-size="19" letter-spacing="8">ABDURAHMONOV</text>
+<path d="M360 222H1060" stroke="url(#cyan)" stroke-width="1.5" opacity=".75"/>
+<g fill="#d9e7f6" font-size="17" letter-spacing="1.4">
+<text x="360" y="258">SOFTWARE  <tspan fill="#4fe1d2">/</tspan>  AI SYSTEMS  <tspan fill="#4fe1d2">/</tspan>  AUTOMATION</text>
+<text x="360" y="291" fill="#8fa5bf" font-size="13" letter-spacing="3">FOUNDER — VEYROST TECHNOLOGY LAB  ·  TAJIKISTAN</text>
+</g>
+<g transform="translate(360 326)" font-family="Consolas,monospace" font-size="12" fill="#5ce5d8">
+<text x="0" y="0">BUILD</text><text x="53" y="0" fill="#52657d">→</text><text x="72" y="0">TEST</text><text x="118" y="0" fill="#52657d">→</text><text x="137" y="0">REFINE</text>
+<rect x="194" y="-11" width="7" height="14" fill="#5ce5d8"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</g>
+</g>
+<g fill="#7892ad" font-family="Consolas,monospace" font-size="10" letter-spacing="2">
+<text x="1120" y="45" text-anchor="end">VYR / 26</text><text x="1120" y="337" text-anchor="end">DUSHANBE · TJ</text>
+</g>
+<path d="M0 1H1200" stroke="url(#cyan)" stroke-width="2" opacity=".9"/>
+<path d="M0 359H1200" stroke="#1e3548" stroke-width="2"/>
+</g></svg>
