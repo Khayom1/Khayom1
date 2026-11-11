@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Khayom Abdurahmonov — VEYROST</title>
+<desc id="desc">Dark profile banner with a teal mark and the name Khayom Abdurahmonov.</desc>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#18181b" stroke-width="1"/>
+  </pattern>
+  <radialGradient id="glow" cx="18%" cy="50%" r="42%">
+    <stop offset="0" stop-color="#7dcdc4" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#7dcdc4" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1200" height="300" fill="#09090b"/>
+<rect width="1200" height="300" fill="url(#grid)" opacity="0.55"/>
+<rect width="1200" height="300" fill="url(#glow)"/>
+<rect x="0" y="0" width="1200" height="2" fill="#7dcdc4"/>
+<g fill="none" stroke="#7dcdc4" transform="translate(108 150)">
+  <circle r="78" stroke-width="1.25" opacity="0.9"/>
+  <circle r="58" stroke-width="0.6" opacity="0.35"/>
+  <path d="M-22 8 L0 -28 L22 8" stroke-width="2.4" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M-34 34 H34" stroke-width="1" opacity="0.55"/>
+</g>
+<g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#f4f4f5">
+  <text x="248" y="112" fill="#7dcdc4" font-size="13" letter-spacing="6">VEYROST</text>
+  <text x="246" y="176" font-size="64" font-weight="600" letter-spacing="1">KHAYOM</text>
+  <text x="248" y="208" fill="#a1a1aa" font-size="15" letter-spacing="7">ABDURAHMONOV</text>
+  <text x="248" y="248" fill="#d4d4d8" font-size="15" letter-spacing="0.4">Personal AI   ·   Tools   ·   Products   ·   Dushanbe</text>
+  <text x="1112" y="118" text-anchor="end" fill="#7dcdc4" font-size="12" letter-spacing="2">01</text>
+  <text x="1112" y="166" text-anchor="end" fill="#71717a" font-size="12" letter-spacing="2">PUBLIC BUILD</text>
+  <text x="1112" y="214" text-anchor="end" fill="#71717a" font-size="12" letter-spacing="2">TAJIKISTAN</text>
+</g>
+<rect x="0" y="298" width="1200" height="2" fill="#18181b"/>
+</svg>
