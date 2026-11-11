@@ -1,132 +1,188 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" width="100%" alt="Khayom Abdurahmonov — VEYROST. Personal AI, tools, and products from Dushanbe."/>
+<img src="assets/profile-banner.svg" width="100%" alt="Khayom Abdurahmonov — VEYROST, software and AI systems from Dushanbe."/>
 
-<a href="https://github.com/Khayom1">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=7DCDC4&center=true&vCenter=true&width=720&lines=Follow+the+public+build;Personal+AI+from+Dushanbe;Tools+people+actually+use;Products%2C+not+just+demos" alt="Follow the public build"/>
-</a>
+<strong>INDEPENDENT SOFTWARE DEVELOPER · AI SYSTEMS · PRODUCT ENGINEERING</strong>
 
-**Khayom Abdurahmonov** · founder of VEYROST · Dushanbe
+Dushanbe, Tajikistan · Founder of <a href="https://veyrost.is-a.dev/">VEYROST</a>
 
-I build a personal AI system, small tools, and products — and I leave the work in public.
+<a href="https://github.com/Khayom1?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-PROJECTS-111827?style=for-the-badge&logo=github&logoColor=white" alt="Explore projects"/></a>
+<a href="https://github.com/Khayom1"><img src="https://img.shields.io/badge/FOLLOW-KHAYOM1-0f766e?style=for-the-badge&logo=github&logoColor=white" alt="Follow Khayom1"/></a>
+<a href="https://t.me/PrafesrX"><img src="https://img.shields.io/badge/CONTACT-TELEGRAM-111827?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact on Telegram"/></a>
 
-Аз Душанбе. Сохта мешавад дар равшанӣ.
+<br/>
 
-<a href="https://github.com/Khayom1"><img src="https://img.shields.io/badge/Follow-Khayom1-09090b?style=for-the-badge&logo=github&logoColor=7dcdc4" alt="Follow on GitHub"/></a>
-<a href="https://veyrost.is-a.dev/"><img src="https://img.shields.io/badge/VEYROST-Website-09090b?style=for-the-badge&logo=googlechrome&logoColor=7dcdc4" alt="VEYROST website"/></a>
-<a href="https://t.me/PrafesrX"><img src="https://img.shields.io/badge/Telegram-Message-09090b?style=for-the-badge&logo=telegram&logoColor=7dcdc4" alt="Telegram"/></a>
-<a href="https://www.youtube.com/@veyrost"><img src="https://img.shields.io/badge/YouTube-Watch-09090b?style=for-the-badge&logo=youtube&logoColor=7dcdc4" alt="YouTube"/></a>
-
-[Instagram](https://instagram.com/a_khayom) · [TikTok](https://www.tiktok.com/@veyrost) · [Email](mailto:prafessorittiloot@gmail.com)
+I design, build, and document practical software — from AI experiments and API-driven systems to mobile-first applications and command-line tools.
 
 </div>
 
 ---
 
-## Why follow
+## Engineering profile
 
-The profile is a build log, not a brochure.
+My work sits at the intersection of **software development, applied AI, automation, and product design**. I care about what happens after a demo: whether a project can be installed, understood, tested, maintained, and used by someone other than its author.
 
-- **VEYROST** — a personal AI, shaped in public as it changes
-- **Tools with a job** — wrong-layout typing, Termux, typography
-- **Products with a place** — made in Tajikistan, useful past it
+I build with a resource-conscious mindset. Lightweight architecture, local-first workflows, privacy-aware defaults, clear failure handling, and reproducible setup instructions are recurring priorities across my projects.
 
-If that is the kind of work you want in your feed, follow **[Khayom1](https://github.com/Khayom1)**.
+**Current areas of focus**
+- **AI systems:** local model experimentation, agent workflows, context design, and tool integration.
+- **Backend engineering:** Node.js services, REST APIs, PostgreSQL, session security, and multi-tenant access control.
+- **Developer tooling:** Python and shell utilities, diagnostics, automation, and mobile development workflows.
+- **Web products:** responsive interfaces, progressive web apps, offline-capable experiences, and browser-based tools.
+- **Engineering quality:** modular code, automated checks, unit tests, security-conscious design, and maintainable documentation.
 
----
+## Selected engineering work
 
-## Selected work
+These projects represent the work I want this profile to lead with. Their status is stated plainly: a repository is not presented as a finished hosted product unless it actually is one.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [VEYROST](https://github.com/Khayom1/Veyrost)
-Personal AI system. Local models, automation, a private assistant.
+### <a href="https://github.com/Khayom1/WAYLINE-RADIO">WAYLINE RADIO</a>
 
-[Repository](https://github.com/Khayom1/Veyrost) · [Site](https://veyrost.is-a.dev/)
+**Multi-tenant platform · Node.js · PostgreSQL · Docker**
+
+An internet-radio platform designed for trucking and logistics companies, with separate company stations and a shared control plane.
+
+- Company-aware data model and membership checks
+- Signed sessions and password hashing
+- RSS/Atom ingestion with a human review queue
+- Music-rights approval controls
+- Installable, multilingual PWA
+
+<sub>STATUS · Active development. A production stream provider and licensed media catalogue must be configured separately.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### [Textivo](https://github.com/Khayom1/textivo)
-Browser typography studio. Style letters, add motion, export. EN · RU · TG.
+### <a href="https://github.com/Khayom1/NetScope">NetScope</a>
 
-[Repository](https://github.com/Khayom1/textivo)
+**Network diagnostics · Python · Android / Linux**
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+A privacy-first toolkit that helps users understand connectivity failures and choose sensible next steps.
 
-### [WAYLINE RADIO](https://github.com/Khayom1/WAYLINE-RADIO)
-Internet radio for trucking and logistics teams. One platform, separate company stations.
+- DNS, TCP, HTTPS, IPv6, ping, and route diagnostics
+- Plain-language diagnosis in Tajik, Russian, and English
+- CLI plus a mobile-friendly local web interface
+- JSON and TXT report export
+- No third-party Python dependencies or telemetry
 
-[Repository](https://github.com/Khayom1/WAYLINE-RADIO)
-
-</td>
-<td valign="top">
-
-### [layout-fixer](https://github.com/Khayom1/layout-fixer)
-Typed in the wrong keyboard layout? This puts Russian and English back where they belong.
-
-[Repository](https://github.com/Khayom1/layout-fixer)
+<sub>STATUS · Functional project under active refinement.</sub>
 
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td width="50%" valign="top">
 
-### [Bozorcha](https://github.com/Khayom1/bozorcha)
-A marketplace built for the local market of Tajikistan.
+### <a href="https://github.com/Khayom1/textivo">Textivo</a>
 
-[Repository](https://github.com/Khayom1/bozorcha)
+**Browser-based creative tool · JavaScript · PWA**
+
+A multilingual typography and motion-design studio for creating polished text compositions without a paid API or a complex desktop application.
+
+- Character-level typography controls
+- Motion effects and animation timelines
+- Editable project JSON
+- HTML, SVG, and PNG export
+- Local project storage and offline-capable app shell
+
+<sub>STATUS · Active development. A hosted public demo is not configured yet.</sub>
 
 </td>
-<td valign="top">
+<td width="50%" valign="top">
 
-### [Termux Toolkit](https://github.com/Khayom1/termux-toolkit)
-System, network, and git helpers for Termux on Android. One install command.
+### <a href="https://github.com/Khayom1/layout-fixer">Layout Fixer</a>
 
-[Repository](https://github.com/Khayom1/termux-toolkit)
+**Python CLI · JavaScript · PWA · Testing**
+
+A local keyboard-layout correction tool for text accidentally typed with the wrong language layout.
+
+- Russian ↔ English and Tajik ↔ English conversion
+- Browser interface and Python command-line engine
+- Reversible mapping for additional Tajik characters
+- Offline use and installable PWA
+- Automated unit tests for conversion behavior
+
+<sub>STATUS · Version 4.2 · Public project.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/Khayom1/Veyrost">VEYROST</a>
+
+**Personal AI initiative · Local AI · Automation**
+
+A long-term personal technology project exploring how AI systems can work with local models, tools, memory, and automation.
+
+- Local model and constrained-hardware experiments
+- AI tool integration and agent workflows
+- Context and memory architecture exploration
+- Human–AI interaction and practical automation
+
+<sub>STATUS · Experimental system; capabilities evolve as components are built and validated.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### <a href="https://github.com/Khayom1/termux-toolkit">Termux Toolkit</a>
+
+**Shell scripting · Android · Developer utilities**
+
+A compact set of command-line helpers for Android users working in Termux.
+
+- System information and diagnostics
+- Network connectivity checks
+- Git status helpers
+- Modular scripts and a one-command installer
+
+<sub>STATUS · Public utility project.</sub>
 
 </td>
 </tr>
 </table>
 
-Everything else stays in the [repository list](https://github.com/Khayom1?tab=repositories). These six are the ones worth opening first.
-
----
-
-## Stack
+## Technical toolkit
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,js,ts,html,css,bash,linux,android,git,github,supabase,vscode&perline=6" alt="Python, JavaScript, TypeScript, HTML, CSS, Bash, Linux, Android, Git, GitHub, Supabase, VS Code"/>
-
+<img src="https://skillicons.dev/icons?i=python,js,ts,nodejs,html,css,bash,postgres,docker,linux,android,git,github&perline=7" alt="Python, JavaScript, TypeScript, Node.js, HTML, CSS, Bash, PostgreSQL, Docker, Linux, Android, Git and GitHub"/>
 </div>
 
----
+| Area | Technologies and practices |
+|---|---|
+| Languages | Python, JavaScript, TypeScript, Bash, HTML, CSS, SQL |
+| Backend | Node.js, REST APIs, PostgreSQL, session-based authentication |
+| Web | Responsive UI, PWA, service workers, local storage, offline-first patterns |
+| AI & integration | LLM experimentation, local inference, MCP, tool calling, automation |
+| Platforms | Android / Termux, Linux, browser-based applications, Docker |
+| Quality | Unit tests, syntax checks, input validation, clear setup and security documentation |
 
-## Work with me
+## How I approach engineering
 
-I take a small number of collaborations: software, AI experiments, and interface work.
+- **Useful before impressive.** Solve a specific problem and make the result understandable.
+- **Explicit over assumed.** Document requirements, limitations, setup steps, and project status.
+- **Privacy as a design choice.** Prefer local processing and collect no data that a tool does not need.
+- **Small, verifiable steps.** Use repeatable checks and tests instead of relying on appearance alone.
+- **Build for real constraints.** Keep systems practical to run, including on modest hardware and mobile environments.
 
-Write with a clear idea. Curious people are welcome — you do not need to be an expert, but you do need to stay with the work.
+## Collaboration
 
-<a href="https://t.me/PrafesrX"><img src="https://img.shields.io/badge/Start_a_conversation-09090b?style=for-the-badge&logo=telegram&logoColor=7dcdc4" alt="Message on Telegram"/></a>
+I welcome thoughtful collaboration, technical feedback, bug reports, and practical ideas around AI tooling, developer utilities, backend services, and accessible software.
 
----
+The best conversations start with a concrete problem, a reproducible issue, or a working prototype.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Khayom1&show_icons=true&hide_border=true&include_all_commits=true&bg_color=09090b&title_color=7dcdc4&icon_color=7dcdc4&text_color=e4e4e7" alt="GitHub statistics for Khayom1"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khayom1&layout=compact&hide_border=true&bg_color=09090b&title_color=7dcdc4&text_color=e4e4e7&langs_count=6" alt="Top languages for Khayom1"/>
+<a href="https://t.me/PrafesrX"><img src="https://img.shields.io/badge/START_A_CONVERSATION-0f766e?style=for-the-badge&logo=telegram&logoColor=white" alt="Start a conversation on Telegram"/></a>
+<a href="mailto:prafessorittiloot@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Khayom"/></a>
+<a href="https://veyrost.is-a.dev/"><img src="https://img.shields.io/badge/VEYROST-WEBSITE-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="VEYROST website"/></a>
 
 <br/>
 
-**Building in public. From Dushanbe.**
+**Building useful systems. Documenting the work. Improving through evidence.**
 
-<sub>Khayom Abdurahmonov · VEYROST</sub>
+<sub>Khayom Abdurahmonov · VEYROST · Tajikistan</sub>
 
 </div>
