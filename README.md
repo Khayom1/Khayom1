@@ -307,7 +307,7 @@ I welcome project ideas, bug reports, technical feedback, and collaboration prop
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Khayom1&show_icons=true&hide_border=true&bg_color=0B1220&title_color=55E6D5&icon_color=55E6D5&text_color=D7E3F4&rank_icon=github" alt="GitHub statistics"/>
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Khayom1&layout=compact&hide_border=true&bg_color=0B1220&title_color=55E6D5&text_color=D7E3F4" alt="Most used languages"/>
 
-<img src="https://streak-stats.demolab.com?user=Khayom1&hide_border=true&background=0B1220&ring=55E6D5&fire=55E6D5&currStreakLabel=55E6D5&sideLabels=D7E3F4&dates=8293AA" alt="GitHub contribution streak"/>
+<img src="https://streak-stats.demolab.com?user=Khayom1&hide_border=true&background=0B1220&border=26364A&stroke=26364A&ring=55E6D5&fire=55E6D5&currStreakNum=F4F8FF&currStreakLabel=55E6D5&sideNums=F4F8FF&sideLabels=D7E3F4&dates=9AAAC0" alt="GitHub contribution streak"/>
 
 <img src="https://komarev.com/ghpvc/?username=Khayom1&style=flat-square&color=0b8278&label=PROFILE+VIEWS" alt="Profile views"/>
 
